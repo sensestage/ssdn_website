@@ -32,7 +32,7 @@
 		  </menu>
 	      </li>-->
 	      <li>
-		  <menu label="menu">
+		  <menu label="MENU">
 		    <?=self:get('page_links') ?>
         		<? if self:get('have_posts') then ?>
                     <li><a href="<?=self:get('url') ?>/index.xml">RSS Feed</a></li>
@@ -52,10 +52,10 @@
             <h1>
             <a href="<?=self:get('url') ?>">
 <!--             <span> -->
-	      <img src="<?=self:get('url') ?>inc/sense.png" width="152" height="49" top="-2" left="-4" alt="Sense">
+	      <img src="<?=self:get('url') ?>/inc/sense.png" width="152" height="49" top="-2" left="-4" alt="Sense">
 <!-- 	    </span> -->
 <!-- 	    <span> -->
-	      <img src="<?=self:get('url') ?>inc/stage.png" width="195" height="49" top="-2" left="-4" alt="/Stage">
+	      <img src="<?=self:get('url') ?>/inc/stage.png" width="195" height="49" top="-2" left="-4" alt="/Stage">
 <!-- 	    </span> -->
 <!--             <?=self:get('title') ?> -->
             </a>

@@ -40,7 +40,7 @@ div#toolbar {
     }
   div#toolbar li menu {
       float: left;
-      width: 16em;
+      width: 40em;
       background-color: #F5F5F5;
       text-align: center;
     }
@@ -160,7 +160,7 @@ div#footer {
     float: left;
     width: 100%;
 }
-
+           
 div#footer1 {
     margin-bottom: 5px;
     font-size: 14px;
@@ -170,3 +170,18 @@ div#footer1 {
     float: left;
     width: 100%;
 }
+
+  div#footer1 ul {
+        margin: 0;
+        padding: 0;
+        float: left;
+        clear: both;
+    }
+        div#footer1 ul li {
+            display: inline;
+            list-style: none;
+            margin-right: 5px;
+        }
+            div#footer1 ul li.active a {
+                border-bottom: 1px solid #000;
+            }
