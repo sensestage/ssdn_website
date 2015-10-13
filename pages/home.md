@@ -1,3 +1,4 @@
+$order=1
 $title=What is Sense/Stage
 
 Sense/Stage was initially a research-creation project to develop small, low cost and low power wireless sensor hardware together with software infrastructure specifically for use in live theater, dance and music performance as well as for the design of interactive, real-time environments involving distributed, heterogeneous sensing modalities.
